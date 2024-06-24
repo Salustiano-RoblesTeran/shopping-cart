@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header changeFilters = {setFilters}/>
       <h1>Shoping Cart</h1>
       <Products products={filteredProducts}/>
     </>
